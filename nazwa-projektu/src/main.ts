@@ -1,5 +1,4 @@
 import "./style.css";
-
 let Columns = 4;
 let Rows = 4;
 window.onload = function () {
@@ -92,6 +91,9 @@ function slide(row: number[]) {
   for (let r = 0; r < row.length - 1; r++) {
     if (row[r] == row[r + 1]) {
       row[r] += row[r];
+      points = CountPoints(row[r]);
+      let PointsId = document.querySelector("#PointsId") as HTMLHeadingElement;
+      PointsId.innerHTML = "Points: " + points;
       row[r + 1] = 0;
     }
   }
@@ -148,7 +150,6 @@ function SlideDown() {
       let num: number = GameTable[r][c];
       SetTiles(tile, num);
     }
-    // console.log(row);
   }
 }
 
@@ -166,4 +167,10 @@ function slideLeft() {
     }
   }
 }
-//dodac animacje moze
+let points = 0;
+
+function CountPoints(row: number) {
+  return (points += row);
+}
+
+//obliczenie odleglosci jaka musi przebyc kafelek w slide bedzie najltaiwjesze i potem zaimplementowanie tego w tailwind/css
