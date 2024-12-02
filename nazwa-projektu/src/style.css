@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.x2 {
+  @apply bg-[#eee4da] border-[hsl(29,17%,78%)] border-4 text-[#776e65] text-2xl flex items-center justify-center;
+}
+
+.x4 {
+  @apply bg-[#ede0c8] border-[hsl(30,19%,79%)] border-4 text-[#776e65] text-2xl flex items-center justify-center;
+}
+
+.x8 {
+  @apply bg-[#f2b179] border-[hsl(33,90%,67%)] border-4 text-[#f9f6f2] text-2xl flex items-center justify-center;
+}
+
+.x16 {
+  @apply bg-[#f59563] border-[hsl(14,84%,62%)] border-4 text-[#f9f6f2] text-2xl flex items-center justify-center;
+}
+
+.x32 {
+  @apply bg-[#f67c5f] border-[hsl(10,83%,59%)] border-4 text-[#f9f6f2] text-2xl flex items-center justify-center;
+}
+
+.x64 {
+  @apply bg-[#f65e3b] border-[hsl(8,89%,55%)] border-4 text-[#f9f6f2] text-2xl flex items-center justify-center;
+}
+
+.x128 {
+  @apply bg-[#edcf72] border-[hsl(45,76%,67%)] border-4 text-[#f9f6f2] text-2xl flex items-center justify-center;
+}
+
+.x256 {
+  @apply bg-[#edcc61] border-[hsl(47,73%,64%)] border-4 text-[#f9f6f2] text-2xl flex items-center justify-center;
+}
+
+.x512 {
+  @apply bg-[#edc850] border-[hsl(49,71%,60%)] border-4 text-[#f9f6f2] text-2xl flex items-center justify-center;
+}
+
+.x1024 {
+  @apply bg-[#edc53f] border-[hsl(51,69%,56%)] border-4 text-[#f9f6f2] text-2xl flex items-center justify-center;
+}
+
+.x2048 {
+  @apply bg-[#edc22e] border-[hsl(53,67%,52%)] border-4 text-[#f9f6f2] text-2xl flex items-center justify-center;
+}
+
+.x4096 {
+  @apply bg-[#3c3a32] border-[#3c3a32] border-4 text-[#f9f6f2] text-2xl flex items-center justify-center;
+}
+
+.x8192 {
+  @apply bg-[#60d992] border-[#60d992] border-4 text-[#f9f6f2] text-2xl flex items-center justify-center;
+}
