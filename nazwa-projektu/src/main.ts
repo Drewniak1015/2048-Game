@@ -26,7 +26,7 @@ function SetGame() {
 }
 
 function SetTiles(NewTile: HTMLDivElement, num: number) {
-  NewTile.className = "";
+  NewTile.className = "x0";
   NewTile.innerHTML = "";
   if (num > 0) {
     NewTile.innerText = num.toString();
@@ -60,8 +60,9 @@ function createNewTile() {
     if (GameTable[r][c] === 0) {
       GameTable[r][c] = 2;
       let tile = document.getElementById(`${r}-${c}`) as HTMLDivElement;
-      tile.innerText = "2";
-      tile.className = "x2";
+      let randomTile = Math.ceil(Math.random() * 10);
+      tile.innerText = randomTile > 9 ? "4" : "2";
+      tile.className = randomTile > 9 ? "x4" : "x2";
       filed = true;
     }
   }
@@ -82,7 +83,6 @@ function slideRight() {
       ) as HTMLDivElement;
       let num: number = GameTable[r][c];
       SetTiles(tile, num);
-      // createNewTile();
     }
   }
 }
@@ -172,5 +172,4 @@ let points = 0;
 function CountPoints(row: number) {
   return (points += row);
 }
-
-//obliczenie odleglosci jaka musi przebyc kafelek w slide bedzie najltaiwjesze i potem zaimplementowanie tego w tailwind/css
+//dodac instrukcje sterowania i styl na kafalek mniej kodu
