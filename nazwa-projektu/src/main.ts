@@ -173,3 +173,4 @@ function CountPoints(row: number) {
   return (points += row);
 }
 //dodac instrukcje sterowania i styl na kafalek mniej kodu
+//dodac responsywnosc
