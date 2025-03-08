@@ -12,7 +12,6 @@ Ten projekt to prosta implementacja gry w JavaScript (lub React, jeśli dotyczy)
 - Logikę łączenia i przesuwania kafelków.
 - Warunek zwycięstwa (gdy kafelek osiągnie wartość 2048).
 - Warunek przegranej (gdy nie ma już dostępnych ruchów).
-- Opcjonalnie: animacje ruchu kafelków oraz przyjazny interfejs użytkownika.
 
 ## Funkcje
 
