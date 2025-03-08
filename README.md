@@ -24,7 +24,7 @@ Ten projekt to prosta implementacja gry w JavaScript (lub React, jeśli dotyczy)
 
 ## Link
 
-[Link do wersji gry]([https://adres-do-demo.com](https://drewniak1015.github.io/2048-Game/))
+[Link do gry]([https://adres-do-demo.com](https://drewniak1015.github.io/2048-Game/)
 
 ## Instalacja
 
