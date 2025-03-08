@@ -28,6 +28,17 @@ Link do gry: [2048](https://Drewniak1015.github.io/2048-Game/)
 1. Sklonuj to repozytorium:
    ```bash
    git clone https://github.com/Drewniak1015/2048.git
-2. cd nazwa-projektu
-3. npm install
-4. npm start
+2. Wejdź do folderu projektu:
+    ```bash
+    cd CustomDropDownMenu
+    ```
+
+3. Zainstaluj zależności:
+    ```bash
+    npm install
+    ```
+
+4. Uruchom aplikację:
+    ```bash
+    npm start
+    ```
