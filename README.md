@@ -1,6 +1,6 @@
 # Gra 2048
 
-Prosta implementacja popularnej gry puzzle 2048 w JavaScript (lub React/HTML/CSS).
+Prosta implementacja popularnej gry puzzle 2048 w Typescript
 
 ## Opis
 
@@ -31,3 +31,6 @@ Link do gry: [2048](https://drewniak1015.github.io/2048-Game/)
 1. Sklonuj to repozytorium:
    ```bash
    git clone https://github.com/yourusername/2048.git
+2. cd nazwa-projektu
+3. npm install
+4. npm start
