@@ -18,8 +18,6 @@ Ten projekt to prosta implementacja gry w JavaScript (lub React, jeśli dotyczy)
 - **Łączenie kafelków:** Połącz kafelki o tej samej wartości, aby utworzyć nowy kafelek o sumie obu liczb.
 - **Ruchy:** Kafelki można przesuwać w czterech kierunkach: w górę, w dół, w lewo lub w prawo.
 - **Śledzenie wyniku:** Bieżący wynik jest wyświetlany i aktualizowany po każdym połączeniu kafelków.
-- **Reset gry:** Zresetuj grę po osiągnięciu wygranej lub w przypadku przegranej.
-- **Animacje:** Płynne animacje przesuwania kafelków dla lepszego doświadczenia użytkownika.
 
 ## Link
 
